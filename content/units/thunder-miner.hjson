@@ -1,0 +1,21 @@
+type: MinerDrone
+name: Thunder Miner
+description: A very fast drone.
+speed: 1.0
+flying: true
+health: 50
+shootCone: 0
+attackLength: 0
+mass: 1
+targetAir: false
+engineOffset: 1
+minePower: 4
+itemCapacity: 1
+range: 25
+weapon: {
+  name: thunder
+  length: 1.5
+  reload: 10
+  alternate: true
+  bullet: lightning
+}

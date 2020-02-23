@@ -1,0 +1,19 @@
+name: X Power Tower
+description: A power joint made by Xuphorium.
+type: PowerNode
+health: 1024
+size: 3
+requirements: [
+  copper/64
+  lead/64
+  titanium/64
+  thorium/64
+  phase-fabric/64
+  surge-alloy/64
+  x_ingot/64
+]
+category: power
+research: x-wall-large
+laserRange: 512
+maxNodes: 512
+baseExplosiveness: 10

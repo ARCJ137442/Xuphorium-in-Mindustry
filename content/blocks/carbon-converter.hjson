@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: "Carbon-Converter"
+description: "Conver Graphite to Coal. Need Slag as catalyst"
+category: crafting
+research: x-crystal-catalytic-converter
+
+liquidCapacity: 40
+outputItem: coal/1
+outputLiquid: slag/30
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 300
+baseExplosiveness: 0.5
+consumes: {
+  power: 0.75
+  items: {
+    items: [
+      graphite/1
+    ]
+  }
+  liquid: slag/0.1
+}
+requirements: [
+  copper/150
+  graphite/200
+  silicon/50
+  x_ingot/4
+  x_crystal/1
+]
+updateEffect: spawn
+craftEffect: freezing
+

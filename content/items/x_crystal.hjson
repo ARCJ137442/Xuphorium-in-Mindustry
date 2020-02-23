@@ -1,0 +1,8 @@
+type: material
+name: X-Crystal
+description: An emerald of Silicon and Xuphorium.
+cost: 4
+color: 66ccff
+explosiveness: 0
+flammability: 0
+radioactivity: 0.01

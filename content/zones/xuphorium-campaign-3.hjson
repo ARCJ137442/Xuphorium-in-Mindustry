@@ -1,0 +1,51 @@
+name: Xuphorium Campaign III
+description: A deep valley countins more x-ore,more enemy and dangerous. 
+loadout: basicNucleus
+startingItems: [
+  copper/750
+  lead/1250
+  graphite/200
+  silicon/200
+  titanium/500
+  metaglass/100
+  x_ingot/100
+  x_crystal/50
+]
+conditionWave: 30
+launchPeriod: 4
+requirements: [
+  {
+    type: ZoneWave
+    zone: xuphorium-campaign-2
+    wave: 40
+  }
+  {
+    type: Unlock
+    block: x-wall-large
+  }
+  {
+    type: Unlock
+    block: x-crystal-catalytic-converter
+  }
+  {
+    type: Unlock
+    block: carbon-converter
+  }
+  {
+    type: Unlock
+    block: thorium-extractor
+  }
+  {
+    type: Unlock
+    block: command-center
+  }
+]
+resources: [
+  copper
+  lead
+  scrap
+  coal
+  titanium
+  thorium
+  x_ore
+]

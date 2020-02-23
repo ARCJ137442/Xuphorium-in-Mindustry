@@ -1,0 +1,8 @@
+type: material
+name: X-Catalyst
+description: An catalyst of Xuphorium.
+cost: 4
+color: 5f9ddc
+explosiveness: 0
+flammability: 0
+radioactivity: 0.01

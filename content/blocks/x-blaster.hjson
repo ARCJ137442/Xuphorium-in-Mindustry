@@ -1,0 +1,37 @@
+type: PowerTurret
+name: X-Blaster
+description: A Turret uses X-Ingot. 
+health: 100
+size: 1
+reload: 1
+range: 150
+shootEffect: none
+shootSound: none
+inaccuracy: 0
+rotatespeed: 24
+xRand: 0
+recoil: 0
+restitution: 0
+powerUse: 0.4
+alwaysReplace: true
+shootType: {
+    "type": "HealBulletType",
+    "lifetime": 0,
+	"lightining": 1,
+	"lightningLength": 24,
+    "speed": 0,
+	"damage": 50,
+    /*"frontColor": "66ccff",
+      "backColor": "ffffff",*/
+	"shootEffect": "lightningShoot"
+	"collidesTeam": true,
+	"pierce": true
+}
+requirements: [
+  graphite/100
+  silicon/40
+  x_ingot/20
+  x_crystal/1
+]
+category: turret
+research: x-crystal-factory

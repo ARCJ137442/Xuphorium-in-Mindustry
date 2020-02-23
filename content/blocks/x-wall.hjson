@@ -1,0 +1,16 @@
+name: X Wall
+description: A wall made of x-ingot.
+type: SurgeWall
+health: 512
+size: 1
+requirements: [
+  x_ingot/8
+]
+category: defense
+research: x-ingot-factory
+//hitTime: 20
+//maxDamageDeflect: 20
+lightningChance: 1
+lightningDamage: 16
+lightningLength: 8
+alwaysReplace: true

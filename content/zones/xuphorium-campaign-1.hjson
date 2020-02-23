@@ -1,0 +1,39 @@
+name: Xuphorium Campaign I
+description: The begin of Xuphorium. contains 1 X-Ore.
+loadout: basicFoundation
+startingItems: [
+  copper/200
+  lead/100
+  graphite/100
+  silicon/100
+  titanium/200
+  thorium/100
+]
+conditionWave: 30
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: stainedMountains
+    wave: 40
+  }
+  {
+    type: Unlock
+    block: x-ore-separator
+  }
+  {
+    type: Unlock
+    block: x-ingot-factory
+  }
+  {
+    type: Unlock
+    block: diode
+  }
+]
+resources: [
+  scrap
+  lead
+  coal
+  titanium
+  x_ore
+]

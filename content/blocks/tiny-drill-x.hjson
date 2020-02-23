@@ -1,0 +1,19 @@
+name: Tiny Drill X
+description: A tiny drill that can extract ore in 1x1 block.
+type: Drill
+size: 1
+tier: 4
+warmupSpeed: 0.1
+drillTime: 300
+consumes: {
+  power: 0.1
+}
+requirements: [
+  graphite/10
+  copper/10
+  lead/10
+  silicon/10
+  titanium/10
+]
+category: production
+research: mechanical-drill

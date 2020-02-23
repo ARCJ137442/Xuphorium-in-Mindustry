@@ -1,0 +1,45 @@
+name: Xuphorium Campaign II
+description: A large zone countins grass,sand and stone. Many resources there. 
+loadout: basicNucleus
+startingItems: [
+  copper/500
+  lead/1000
+  graphite/100
+  silicon/100
+  titanium/200
+  x_ingot/50
+]
+conditionWave: 15
+launchPeriod: 5
+requirements: [
+  {
+    type: ZoneWave
+    zone: xuphorium-campaign-1
+    wave: 10
+  }
+  {
+    type: Unlock
+    block: x-wall
+  }
+  {
+    type: Unlock
+    block: x-dust-factory
+  }
+  {
+    type: Unlock
+    block: x-crystal-factory
+  }
+  {
+    type: Unlock
+    block: oil-extractor
+  }
+]
+resources: [
+  copper
+  lead
+  scrap
+  coal
+  titanium
+  thorium
+  x_ore
+]

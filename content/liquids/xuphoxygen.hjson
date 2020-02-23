@@ -1,0 +1,11 @@
+name: Xuphoxygen
+description: The Element of Xuphoxygen. Constructed by Xo2.
+color: cceeff
+
+flammability:0.1
+heatCapacity: 0
+temperature: 0.2
+viscosity: 0.2
+explosiveness: 0.8
+
+effect: melting

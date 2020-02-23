@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "X-Ore Separator"
+description: "Split X-Ore into Xuphoxygen and Silicon."
+category: crafting
+research: tiny-drill-x
+//separator
+
+liquidCapacity: 20
+outputLiquid: xuphoxygen/2
+outputItem: silicon/1
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 125
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.75
+  item: x_ore
+}
+requirements: [
+  lead/150
+  copper/160
+  graphite/80
+  silicon/40
+]
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

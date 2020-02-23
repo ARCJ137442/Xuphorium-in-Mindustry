@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: "Thorium-Extractor"
+description: "Extract Thorium from Slag and Scrap."
+category: crafting
+research: x-crystal-catalytic-converter
+
+liquidCapacity: 40
+outputItem: thorium/1
+outputLiquid: water/60
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 600
+baseExplosiveness: 0.5
+consumes: {
+  power: 2
+  items: {
+    items: [
+      scrap/10
+    ]
+  }
+  liquid: slag/0.1
+}
+requirements: [
+  lead/200
+  copper/100
+  titanium/100
+  metaglass/20
+  thorium/10
+  x_ingot/6
+  x_crystal/1
+]
+updateEffect: spawn
+craftEffect: freezing
+

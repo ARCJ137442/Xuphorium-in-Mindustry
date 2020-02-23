@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: "X-Crystal-Catalytic-Converter"
+description: "Grow X-Crystal by X-Liquid."
+category: crafting
+research: x-crystal-factory
+
+liquidCapacity: 25
+outputItem: x_crystal/1
+outputLiquid: x_liquid/30
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 600
+//powerProduction: 0.1
+consumes: {
+  power: 0.05
+  items: {
+    items: [
+      silicon/1
+      metaglass/1
+    ]
+  }
+  liquid: x_liquid/0.06
+}
+requirements: [
+  lead/80
+  copper/80
+  metaglass/30
+  graphite/20
+  silicon/60
+  plastanium/5
+  x_ingot/8
+  x_crystal/1
+]
+updateEffect: spawn
+craftEffect: freezing
+

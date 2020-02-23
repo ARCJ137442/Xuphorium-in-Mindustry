@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: X-Ingot Factory
+description: Combines Titanium and Xuphoxygen to produce X-Ingot and X-Liquid.
+category: crafting
+research: x-ore-separator
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+
+craftTime: 100
+updateEffect: smeltsmoke
+liquidCapacity: 40
+baseExplosiveness: 3
+consumes: {
+  power: 0.8
+  items: {
+    items: [
+      titanium/5
+    ]
+  }
+  liquid: xuphoxygen/0.08
+}
+requirements: [
+  copper/100
+  titanium/100
+  graphite/50
+  silicon/10
+]
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: x_ingot/2
+outputLiquid: x_liquid/5

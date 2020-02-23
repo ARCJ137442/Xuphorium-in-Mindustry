@@ -1,0 +1,8 @@
+type: material
+name: X-Ingot
+description: An alloy of Titanium and Xuphorium.
+cost: 4
+color: 9cfeff
+explosiveness: 0
+flammability: 0
+radioactivity: 0.03

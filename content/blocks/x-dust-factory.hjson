@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: "X Dust Factory"
+description: "Combines Xuphoxygen,Sand and Coal to X-Dust."
+category: crafting
+research: x-ore-separator
+
+liquidCapacity: 10
+outputItem: x_dust/1
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 90
+baseExplosiveness: 3
+consumes: {
+  power: 0.3
+  items: {
+    items: [
+      sand/4
+      coal/1
+    ]
+  }
+  liquid: xuphoxygen/0.04
+}
+requirements: [
+  lead/40
+  copper/60
+  titanium/20
+  plastanium/5
+  x_ingot/4
+]
+idleSound: respawning
+idleSoundVolume: 0.25
+updateEffect: spawn
+craftEffect: freezing
+

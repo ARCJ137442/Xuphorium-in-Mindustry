@@ -1,0 +1,13 @@
+name: X-Liquid
+description: The mixed Element of Xuphorium. Constructed by Xu2,Xu8+,Xu8-.
+color: ccccff
+lightColor:ccddff
+
+temperature: 0.2
+viscosity: 0.99
+flammability:0
+heatCapacity: 0
+temperature: 0.1
+explosiveness: 0
+
+effect: freezing

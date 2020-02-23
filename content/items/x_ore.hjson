@@ -1,0 +1,8 @@
+type: resource
+name: X-Ore
+description: The Ore of Xuphoxygen. Constructed by SiXo2. Only used for production.
+color: ccccff
+explosiveness: 0
+flammability: 0
+radioactivity: 0.01
+hardness: 3

@@ -1,0 +1,8 @@
+type: resource
+name: X-Dust
+description: An dust of sand and Xuphorium.
+cost: -3
+color: a8ecf2
+explosiveness: 0.6
+flammability: 0.12
+radioactivity: 0.02

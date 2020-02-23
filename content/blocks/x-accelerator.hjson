@@ -1,0 +1,37 @@
+name: X-Accelerator
+description: A override projector constructed by Xuphorium.
+type: OverdriveProjector
+health: 1024
+size: 2
+color: abcdef
+//phase: ffffff
+//reload: 60
+range: 200
+speedBoost: 4
+//speedBoostPhase: 1.5
+useTime: 60
+//phaseRangeBoost: -100
+consumes: {
+  power: 5
+  /*
+  items: {
+    items: [
+      silicon/1
+    ]
+  }
+  */
+  liquid: x_liquid/0.1
+}
+requirements: [
+  copper/400
+  lead/200
+  titanium/50
+  thorium/50
+  phase-fabric/40
+  surge-alloy/40
+  x_ingot/80
+  x_crystal/16
+]
+category: effect
+research: x-wall-large
+baseExplosiveness: 100

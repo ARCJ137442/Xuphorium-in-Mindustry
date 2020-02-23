@@ -1,0 +1,29 @@
+name: X Drill
+description: A advanced drill uses by X-Oxygen.
+type: Drill
+size: 3
+tier: 6
+drillTime: 50
+warmupSpeed:0.001
+liquidBoostIntensity: 2
+rotateSpeed: 8
+heatColor: 4466ff
+consumes: {
+  power: 5
+  liquid: {
+    liquid: xuphoxygen
+    amount: 0.05
+    booster: true
+  }
+}
+requirements: [
+  x_ingot/100
+  x_crystal/20
+  graphite/80
+  copper/50
+  lead/50
+  silicon/50
+  titanium/50
+]
+category: production
+research: tiny-drill-x

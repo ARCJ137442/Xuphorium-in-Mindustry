@@ -1,0 +1,15 @@
+type: Conveyor
+name: Xuphorium conveyor
+description: Very Fast Conveyor.
+requirements: [
+  copper/2
+  lead/2
+  titanium/1
+  thorium/1
+  x_ingot/1
+]
+floating: true
+category: distribution
+speed: 0.2
+research: x-ingot-factory
+alwaysReplace: true

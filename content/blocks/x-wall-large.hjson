@@ -1,0 +1,16 @@
+name: Large X Wall
+description: A large wall made of x-ingot.
+type: SurgeWall
+health: 2048
+size: 2
+requirements: [
+  x_ingot/32
+]
+category: defense
+research: x-wall
+//hitTime: 30
+//maxDamageDeflect: 64
+lightningChance: 1
+lightningDamage: 32
+lightningLength: 8
+alwaysReplace: true

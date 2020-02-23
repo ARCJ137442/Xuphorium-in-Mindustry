@@ -1,0 +1,24 @@
+name: Thunder Miner Factory
+description: Makes Thunder Miner units.
+type: UnitFactory
+unitType: thunder-miner
+size: 2
+produceTime: 400
+maxSpawn: 10
+consumes: {
+  power: 0.1
+  items: {
+    items: [
+      copper/20
+      lead/20
+    ]
+  }
+}
+category: units
+research: x-crystal-factory
+requirements: [
+  copper/50
+  lead/50
+  titanium/10
+  x_ingot/1
+]
